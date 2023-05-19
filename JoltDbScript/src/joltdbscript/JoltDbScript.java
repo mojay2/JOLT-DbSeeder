@@ -288,6 +288,31 @@ public class JoltDbScript {
       query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (6,3,3,2)";
       ps = con.prepareStatement(query);
       ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (4,1,4,2)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (5,2,5,0)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (6,3,6,1)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (4,4,7,1)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (5,5,8,2)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
+      query = "INSERT INTO APPLICATIONS(    SEEKER_ID, EMPLOYER_ID, JOB_ID, APP_STATUS) VALUES (6,6,9,0)";
+      ps = con.prepareStatement(query);
+      ps.executeUpdate();
+
 //</editor-fold>
       System.out.println("Successfully populated.");
       ps.close();
